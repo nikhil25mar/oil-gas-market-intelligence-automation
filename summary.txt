@@ -1,0 +1,5 @@
+save_prices.py — pulls live WTI, Brent, and Natural Gas prices via yfinance, appends to a growing CSV, handles duplicates
+analyze_prices.py — calculates day-over-day change, 7/30-day rolling averages, flags 3%+ moves
+generate_report.py — produces a styled Excel report with conditional formatting, handles empty-data days gracefully
+run_daily_report.py — orchestrates all three in sequence with error handling
+run_report.bat + Task Scheduler — fully automated daily execution, no manual intervention

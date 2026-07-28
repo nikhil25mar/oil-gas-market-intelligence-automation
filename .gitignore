@@ -1,0 +1,11 @@
+# Generated daily files
+price_history.csv
+inventory_history.csv
+daily_summary.csv
+market_commentary.txt
+OilGas_Report_*.xlsx
+log.txt
+
+# Python cache
+__pycache__/
+*.pyc
